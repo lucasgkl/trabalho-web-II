@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Insere os elementos na estrutura do card.
         flexDiv.appendChild(postText);  // Adiciona o texto ao flex container.
         cardBodyDiv.appendChild(flexDiv);  // Adiciona o flex container ao corpo do card.
+        postDiv.appendChild(cardBodyDiv);
 
         // Cria e configura o botão de deletar.
         var deleteButton = document.createElement('button');
